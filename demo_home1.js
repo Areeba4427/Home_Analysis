@@ -502,11 +502,7 @@ var KJE = {
     var a = j.CalcTitle;
     var b = j.kujaleip;
     var d = j.UKuejna;
-    if (b) {
-      a.innerHTML = d + i + h;
-      a.className = j.CalculatorTitleError;
-      a.style.setProperty("display", "block", "important");
-    } else {
+  
       KJE.TrialReplace1 = 1;
       var f = c + h;
       if (f != a.innerHTML) {
@@ -534,7 +530,7 @@ var KJE = {
           if ("" != e.innerHTML) {
             e.innerHTML = "";
           }
-        }
+        
       }
     }
   },
@@ -1901,7 +1897,6 @@ KJE.parameters = new KJE.List();
 KJE.inputs = new KJE.List();
 KJE.droppers = new KJE.List();
 KJE.definitions = new KJE.List();
-KJE.UKuejna = "KJE Calculator License Not Found for: ";
 KJE.subheader = "";
 KJE.iStorageTime = 1000;
 KJE.STORAGE_NONE = 0;
